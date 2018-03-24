@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function(){
         })
     })();
     
-    /*
+    
    (function gsearch(){
         var searchbox = document.querySelector('#search-form');
         searchbox.addEventListener('submit', function(e){
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function(){
             window.open(`https://www.google.com/search?q=${searchterm}`, '_blank');
         })
     })();
-    */
+    
     /*
     (function howdy(){
         var namebox = document.querySelector('#name-form');
