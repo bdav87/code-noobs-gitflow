@@ -51,13 +51,14 @@
                                 <h5>Google something</h5>
                             </div>
                             <div class='card-text'>
-                                <form>
+                                <form id='search-form'>
                                     <div class='form-group'>
                                         <label>Enter a search term</label>
-                                        <input type='text' placeholder='Search' class='form-control'>
+                                        <input type='text' placeholder='Search' class='form-control' id='g-search'>
                                     </div>
+                                    <input type='submit' class='btn btn-primary' value='Go'>
                                 </form>
-                                <a href='#' class='btn btn-primary'>Go</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -69,13 +70,13 @@
                                 <h5>What's your name?</h5>
                             </div>
                             <div class='card-text'>
-                                <form>
+                                <form id='name-form'>
                                     <div class='form-group'>
                                         <label>Type your name</label>
-                                        <input type='text' placeholder='Name' class='form-control'>
+                                        <input type='text' placeholder='Name' class='form-control' id='name-greet'>
                                     </div>
+                                    <input type='submit' class='btn btn-primary' value='Go'>
                                 </form>
-                                <a href='#' class='btn btn-primary'>Go</a>
                             </div>
                         </div>
                     </div>
@@ -101,13 +102,13 @@
                             <div class='card-body'>
                                 
                                 <ul class='list-group list-group-flush'>
-                                    <li class='list-group-item'>A develop branch is created from master</li>
-                                    <li class='list-group-item'>A release branch is created from develop</li>
-                                    <li class='list-group-item'>Feature branches are created from develop</li>
-                                    <li class='list-group-item'>When a feature is complete it is merged into the develop branch</li>
-                                    <li class='list-group-item'>When the release branch is done it is merged into develop and master</li>
-                                    <li class='list-group-item'>If an issue in master is detected a hotfix branch is created from master</li>
-                                    <li class='list-group-item'> Once the hotfix is complete it is merged to both develop and master</li>    
+                                    <li class='list-group-item'>A <kbd>develop</kbd> branch is created from <kbd>master</kbd></li>
+                                    <li class='list-group-item'>A <kbd>release</kbd> branch is created from <kbd>develop</kbd></li>
+                                    <li class='list-group-item'><kbd>Feature</kbd> branches are created from <kbd>develop</kbd></li>
+                                    <li class='list-group-item'>When a <kbd>feature</kbd> is complete it is merged into the <kbd>develop</kbd> branch</li>
+                                    <li class='list-group-item'>When the <kbd>release</kbd> branch is done it is merged into <kbd>develop</kbd> and <kbd>master</kbd></li>
+                                    <li class='list-group-item'>If an issue in <kbd>master</kbd> is detected a <kbd>hotfix</kbd> branch is created from <kbd>master</kbd></li>
+                                    <li class='list-group-item'> Once the <kbd>hotfix</kbd> is complete it is merged to both <kbd>develop</kbd> and <kbd>master</kbd></li>    
                                 </ul>
                                 
                             </div>
@@ -121,6 +122,7 @@
                 <ul>
                     <li><a href='https://try.github.io'>Try Git</a></li>
                     <li><a href='https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow'>Atlassian guide to gitflow</a></li>
+                    <li><a href='https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/'>Handling merge conflicts</a></li>
                 </ul>
                 <p></p>
                 <p></p>
