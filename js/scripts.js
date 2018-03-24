@@ -9,14 +9,14 @@ document.addEventListener('DOMContentLoaded', function(){
     ** An IIFE (immediately invoked function expression) to add
     ** a click event to the logo area.
     */
-    /*
+    
     (function greetNoobs(){
         var logo = document.querySelector('#logo-area');
         logo.addEventListener('click', function(){
             alert('Hello Code Noobs!');
         })
     })();
-    */
+    
     /*
    (function gsearch(){
         var searchbox = document.querySelector('#search-form');
