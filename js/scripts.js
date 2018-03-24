@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function(){
         })
     })();
     */
-    /*
+    
     (function howdy(){
         var namebox = document.querySelector('#name-form');
         namebox.addEventListener('submit', function(e){
@@ -40,5 +40,5 @@ document.addEventListener('DOMContentLoaded', function(){
             response.value = `Howdy ${name}! Do you have any tacos?`;
         });
     })();
-    */
+    
 })
