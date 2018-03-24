@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Code Noobs - Git Flow</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='./css/styles.css'>
+    <script src='./js/scripts.js'></script>
+  </head>
+  <body>
+        <div class='jumbotron'>
+            <div class='container'>
+                <div class='row'>
+                        <div class='col-4' id='logo-area'>
+                            <h1 class='display-4'>Code Noobs</h1>
+                            <img src='./img/Git-logo.svg' class='img-fluid' style='max-width:50%'/>
+                            <h2 style='display:inline-block'>Flow</h2>   
+                        </div>
+                </div>
+                    
+                    
+            </div>
+        </div>
+        <div class='container'>
+            <div class='row'>
+                <div class='col'>
+                    <p>Let's have some fun with Git!</p>
+                    <p>We're going to make some changes to make this page more interactive.</p>
+                    <p>We'll walk through the process step by step and cover why using branches will help 
+                        you develop projects safely and in a way that promotes collaboration with other 
+                        contributors.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class='container'>
+            <div class='row'>
+                <div class='col'>
+                    <h2>Interactions</h2>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col-6'>
+                    <div class='card'>
+                        <div class='card-body'>
+                            <div class='card-title'>
+                                <h5>Google something</h5>
+                            </div>
+                            <div class='card-text'>
+                                <form>
+                                    <div class='form-group'>
+                                        <label>Enter a search term</label>
+                                        <input type='text' placeholder='Search' class='form-control'>
+                                    </div>
+                                </form>
+                                <a href='#' class='btn btn-primary'>Go</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-6'>
+                    <div class='card'>
+                        <div class='card-body'>
+                            <div class='card-title'>
+                                <h5>What's your name?</h5>
+                            </div>
+                            <div class='card-text'>
+                                <form>
+                                    <div class='form-group'>
+                                        <label>Type your name</label>
+                                        <input type='text' placeholder='Name' class='form-control'>
+                                    </div>
+                                </form>
+                                <a href='#' class='btn btn-primary'>Go</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='container pt-4'>
+            <div class='row'>
+                <div class='col'>
+                <div class='card'>
+                    <div class='card-body'>
+                        <textarea placeholder='Responses go here' class='form-control' id='response-area'></textarea>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class='container py-4'>
+                <div class='row'>
+                    <div class='col'>
+                        <h3>The overall flow of Gitflow is:</h3>
+                        <div class='card'>       
+                            <div class='card-body'>
+                                
+                                <ul class='list-group list-group-flush'>
+                                    <li class='list-group-item'>A develop branch is created from master</li>
+                                    <li class='list-group-item'>A release branch is created from develop</li>
+                                    <li class='list-group-item'>Feature branches are created from develop</li>
+                                    <li class='list-group-item'>When a feature is complete it is merged into the develop branch</li>
+                                    <li class='list-group-item'>When the release branch is done it is merged into develop and master</li>
+                                    <li class='list-group-item'>If an issue in master is detected a hotfix branch is created from master</li>
+                                    <li class='list-group-item'> Once the hotfix is complete it is merged to both develop and master</li>    
+                                </ul>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+        </div>
+        <footer class='footer pt-2'>
+            <div class='container'>
+                <h5 class='mt-1'>Further reading</h5>
+                <ul>
+                    <li><a href='https://try.github.io'>Try Git</a></li>
+                    <li><a href='https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow'>Atlassian guide to gitflow</a></li>
+                </ul>
+                <p></p>
+                <p></p>
+            </div>
+        </footer>
+  </body>
+</html>
